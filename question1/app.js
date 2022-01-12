@@ -74,4 +74,37 @@ console.log(`Fifteen is ${a + b} and not ${2 * a + b}`); */
   };
  const{operation,members}=avengers; */
 
+ //                    question 2            //
+
+ //1
+/*  function packIt(){
+  console.log(args)
+ }
+
+packIt(1,2,3,5,5) */
+
+
+
+//                   qustion 3                      //
  
+//1
+/* const hello = () => "Hello"
+const welcome = () => "Welcome"
+const [Hello = hello(), Welcome = welcome()] = ["Namaste"]
+console.log(Hello, Welcome)
+output is nameste and welcome
+here default value is replaced by value on right hand side; */
+
+
+//2
+const obj = {
+  aloo : 1,
+  bhallo : 2
+}
+
+const {c : aloo = [2,3,4].push(5), aloo} = obj 
+
+console.log(aloo)
+we cant change the value of aloo on left hand side using const and let it gives an error 
+because onnce it declare it we can't assign another value it using const and let. we can 
+ use var it work properly fine in this case.
