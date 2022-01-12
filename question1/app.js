@@ -29,7 +29,49 @@ console.log(message) */
 //d
 // const Neog = ["Tanvi", "Swap", "Tanay", "MA", "CA", "PA", "TA"]
 // const [ceo,rocketceo]=Neog;
-// console.log(ceo);
-// console.log(rocketceo);
+
 
 //e
+/* const arr = ["MA", "TA", "PA", "CA"];
+const [one,two,...rest]=arr
+console.log(one);
+console.log(two); */
+
+//f
+/* const Aaloo = "Tasty";
+const Bhaloo = "Cute";
+const obj={Aaloo,Bhaloo};
+ */
+
+//g
+/* const a = 5;
+const b = 10;
+console.log(`Fifteen is ${a + b} and not ${2 * a + b}`); */
+
+//h
+/* const arithmeticsObj = {
+    sum:(num1, num2)=>  num1 + num2,
+    
+    multiply:(num1, num2)=>  num1 * num2
+    
+  };
+  const{sum,multiply}=arithmeticsObj; */
+
+  //i
+  /* const avengers = {
+    operation: "Assemble",
+    members: [
+      {
+        ironMan: "Tony Stark"
+      },
+      {
+        captainAmerica: "Steve Rogers"
+      },
+      {
+        blackWidow: "Natasha Romanoff"
+      }
+    ]
+  };
+ const{operation,members}=avengers; */
+
+ 
