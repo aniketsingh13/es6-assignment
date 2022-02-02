@@ -97,7 +97,7 @@ here default value is replaced by value on right hand side; */
 
 
 //2
-const obj = {
+/* const obj = {
   aloo : 1,
   bhallo : 2
 }
@@ -107,4 +107,4 @@ const {c : aloo = [2,3,4].push(5), aloo} = obj
 console.log(aloo)
 we cant change the value of aloo on left hand side using const and let it gives an error 
 because onnce it declare it we can't assign another value it using const and let. we can 
- use var it work properly fine in this case.
+ use var it work properly fine in this case. */
